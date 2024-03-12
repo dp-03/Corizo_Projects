@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> E-Commerce Website </title>
+    <style>
+        h3 {
+            text-align: center; 
+            color: black;
+            font-family: Arial; 
+        }
+        
+        h1 {
+            text-align: center; 
+            color: black;
+            font-family: Arial; 
+        }
+        
+       .product-container {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+        
+        .product {
+            flex: 0 0 calc(33.33% - 20px); 
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+    .product img {
+        width: 140;
+        height: 140;
+        border-radius: 5px;
+        }
+
+    .product p {
+        font-size: 16px;
+        color: #888;
+        }
+
+    .product button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        }
+
+        .product button:hover {
+        background-color: #0056b3;
+        }
+
+        footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+        clear: both;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <h1> E-Commerce Website </h1>
+    <h3>I am Devapriya and here you can check out a simple model of an e-commerce website and when you click the add to cart button an alert message will be displayed as the particular item is added to cart</h3>
+    
+    <div class="product-container">
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\51m3wh-0xnL._SL1000_.jpg" alt="Goat milk shampoo" height="140" width="140">
+            <h3>Goat Milk Shampoo</h3>
+            <p>Price: Rs.490</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\Alo-vera-gel_Gallery_1.webp" alt="Aloevera Gel" height="140" width="140">
+            <h3>Aloevera Gel</h3>
+            <p>Price: Rs.390</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\Anti-acne-combo_Website.webp" alt="Anti acne combo" height="140" width="140">
+            <h3>Anti Acne Combo</h3>
+            <p>Price: Rs.830</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+    
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\De-Tan-Combo_2.webp" alt="De-tan Combo" height="140" width="140">
+            <h3>De-tan Combo</h3>
+            <p>Price: Rs.780</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\Anti-dandruff-Oil_2.avif" alt="Anti Dandruff Oil" height="140" width="140">
+            <h3>Anti Dandruff Oil</h3>
+            <p>Price: Rs.420</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="C:\Users\HP\Downloads\2_45b4d997-c41a-4445-8f87-d1309dbbf03b.avif" alt="Anti Frizz Hair Serum" height="140" width="140">
+            <h3>Anti Frizz Hair Serum</h3>
+            <p>Price: Rs.650</p>
+            <button onclick="add()">Add to Cart</button>
+        </div>
+     <div class="product-container">     
+    </div>
+        
+        <script>
+           function add() {
+            alert("Added to Cart");
+           }
+        </script>
+        
+        <footer>
+        <div class="end">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Products</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <div class="end">
+            <h4>Contact Me</h4>
+            <p>Email: devapriyar30@gmail.com</p>
+            <p>Phone: +91 9645933148</p>
+        </div>
+        <div class="end">
+            <p>&copy; 2024 E-Commerce Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
